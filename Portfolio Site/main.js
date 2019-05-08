@@ -1,8 +1,5 @@
-$(function() {
-  
-    $("#toggle").click(function() {
-      $(this).toggleClass("on");
-      $("#resize").toggleClass("active");
-    });
-    
+
+  $("#toggle").click(function() {
+    $(this).toggleClass("on");
+    $("#resize").toggleClass("active");
   });

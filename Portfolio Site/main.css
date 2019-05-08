@@ -51,6 +51,13 @@
   -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
   box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75); 
  }
+
+ @media(max-width:880px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+ }
  /* ============================================== */
  /* header */
  /* ============================================== */
@@ -134,7 +141,6 @@
    cursor: pointer;
    float: right;
    transition: all 0.3s ease-out;
-   visibility: hidden;
    opacity: 0;
  }
 
@@ -142,7 +148,7 @@
    height: 7px;
    background: #333;
    margin: 5px auto;
-   backface-visibility: hidden;
+   /* backface-visibility: hidden; */
  }
 
  #toggle.on #one {
@@ -206,7 +212,7 @@
    opacity: 0.99;
  }
 
- @media (max-width: 700px) {
+ @media (max-width: 880px) {
    #toggle {
      visibility: visible;
      opacity: 1;
@@ -217,7 +223,7 @@
    }
  }
 
- @media (min-width: 700px) {
+ @media (min-width: 880px) {
    #resize {
      visibility: hidden !important;
    }
@@ -280,21 +286,19 @@
  /* ============================================== */
  #life-container {
    display: flex;
-   flex-direction: row;
    flex-wrap: wrap;
    width: 90%;
    margin: auto;
    justify-content: space-around;
  }
 
- .life {
+  .life {
    display: flex;
    flex-direction: column;
-   background-color: var(--primary-background);
-   width: 18%;
+   background-color: var(--primary-background); 
    margin-bottom: 3%;
-   
- }
+   width: 300px;
+   }
 
  .life img {
    width: 100%;
@@ -349,6 +353,11 @@
    color: var(--primary-background);
  }
 
+ @media (min-width: 0px) and (max-width:786px) {
+  #contact {
+    display: none;
+  }
+}
  /* ============================================== */
  /* footer */
  /* ============================================== */
