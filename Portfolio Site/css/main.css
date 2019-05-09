@@ -37,24 +37,20 @@
 
  #life h3 {
    text-align: center;
-   color: var(--primary-background);
-   margin: 1.5em;
+   margin-top: 1.5em;
    text-transform: uppercase;
+ }
+
+ h5 {
+   margin: 1.7rem 0;
+   padding: 0%;
+   font-style: italic;
+   font-size: 1.2rem;
+   text-align: center;
  }
 
  a {
    color: var(--primary-background);
- }
-
- @media(max-width:880px) {
-   body {
-     margin: 0%;
-     padding: 0%;
-   }
-
-   hr {
-     width: 250px
-   }
  }
 
  /* ============================================== */
@@ -107,13 +103,13 @@
    color: rgb(51, 76, 185);
  }
 
- nav #menu {
+ nav .menu {
    float: left;
    left: 15%;
    position: relative;
  }
 
- nav #menu li {
+ nav .menu li {
    display: inline-block;
    padding: 0px 30px;
    cursor: pointer;
@@ -122,11 +118,11 @@
    transition: all 0.3s ease-out;
  }
 
- nav #menu li a {
+ nav .menu li a {
    color: #fff;
  }
 
- nav #menu li:hover {
+ nav .menu li:hover {
    background: rgb(51, 76, 185);
  }
 
@@ -174,13 +170,13 @@
    display: table;
  }
 
- #resize #menu {
+ #resize .menu {
    height: 50px;
    display: table-cell;
    vertical-align: middle;
  }
 
- #resize #menu li {
+ #resize .menu li {
    display: block;
    text-align: center;
    padding: 20px 0;
@@ -192,39 +188,22 @@
    transition: all 0.3s ease-out;
  }
 
- #resize #menu li:hover {
+ #resize .menu li:hover {
    background: #212121;
  }
 
- #resize #menu li:hover a {
+ #resize .menu li:hover a {
    color: #fff;
    transition: all 0.3s ease-out;
  }
 
- #resize #menu li a {
+ #resize .menu li a {
    color: #212121;
  }
 
  #resize.active {
    visibility: visible;
    opacity: 0.99;
- }
-
- @media (max-width: 880px) {
-   #toggle {
-     visibility: visible;
-     opacity: 1;
-   }
-
-   nav #menu {
-     display: none;
-   }
- }
-
- @media (min-width: 880px) {
-   #resize {
-     visibility: hidden !important;
-   }
  }
 
  /* ============================================== */
@@ -297,13 +276,13 @@
    display: flex;
    flex-direction: column;
    background-color: var(--primary-background);
-   margin-bottom: 3%;
+   margin: 0 40px 40px 0;
    width: 300px;
  }
 
  .life img {
    width: 100%;
-   height: 190px;
+   height: 170px;
  }
 
  .life-info h4,
@@ -344,18 +323,85 @@
    text-align: center;
  }
 
- @media (min-width: 787px) {
-   .contact-info-box {
-     display: flex;
-     font-size: 20px;
-     font-style: oblique;
-     font-weight: bold;
-     margin: 0.5% 0 0 25%;
-     color: var(--primary-background);
+ /* ============================================== */
+ /* footer */
+ /* ============================================== */
+ .bg-light {
+   background-color: #f8f9fa !important;
+   padding-top: 3rem !important;
+   padding-bottom: 3rem !important;
+   text-align: center;
+ }
+
+
+ /* =======================    Media Query Maximum 880px  =======================*/
+
+ @media(max-width:450px) {
+
+   /* ============================================== */
+   /* footer */
+   /* Genral media query on smaller phone device and tablet with maximum 450px */
+   /* ============================================== */
+
+   .hero-div {
+     margin: 0%;
+     padding: 0%;
+     font-size: 24px;
+     padding-top: 126px;
+   }
+
+   .welcome-font {
+     font-size: 15px;
    }
  }
 
- @media (min-width: 0px) and (max-width:786px) {
+ @media(max-width:880px) {
+
+   /* ============================================== */
+   /* Style Guide */
+   /* Media query on biger device with maximum 880px  */
+   /* ============================================== */
+
+   hr {
+     width: 250px
+   }
+
+   /* ============================================== */
+   /* Header */
+   /* Media query on biger device with maximum 880px  */
+   /* ============================================== */
+
+   #toggle {
+     display: inline;
+     opacity: 1;
+   }
+
+   nav .menu {
+     display: none;
+   }
+
+   /* ============================================== */
+   /* Hero section */
+   /* Media query on biger device with maximum 880px  */
+   /* ============================================== */
+   .hero-div {
+     height: 100%;
+   }
+
+   /* ============================================== */
+   /* About sectoin */
+   /* Media query on biger device with maximum 880px  */
+   /* ============================================== */
+
+   /* ============================================== */
+   /* Life sectoin */
+   /* Media query on biger device with maximum 880px  */
+   /* ============================================== */
+
+   /* ============================================== */
+   /* contact sectoin */
+   /* Media query on biger device with maximum 880px  */
+   /* ============================================== */
 
    .contact-info-box {
      margin: 0 0 0 5%;
@@ -365,15 +411,31 @@
      color: var(--primary-background);
      font-size: 15px;
    }
-
  }
 
- /* ============================================== */
- /* footer */
- /* ============================================== */
- .bg-light {
-   background-color: #f8f9fa !important;
-   padding-top: 3rem !important;
-   padding-bottom: 3rem !important;
-   text-align: center;
+ /* =======================    Media Query Minimum 880px  =======================*/
+ @media (min-width: 880px) {
+
+   /* ============================================== */
+   /* footer */
+   /* Media query on biger device with minimum 880px  */
+   /* ============================================== */
+
+   #resize {
+     display: none !important;
+   }
+
+   /* ============================================== */
+   /* footer */
+   /* Media query on biger device with minimum 880px  */
+   /* ============================================== */
+
+   .contact-info-box {
+     display: flex;
+     font-size: 20px;
+     font-style: oblique;
+     font-weight: bold;
+     margin: 0.5% 0 0 25%;
+     color: var(--primary-background);
+   }
  }
