@@ -334,14 +334,9 @@
  }
 
 
- /* =======================    Media Query Maximum 880px  =======================*/
+ /* =======================    Media Query Maximum 450px  =======================*/
 
  @media(max-width:450px) {
-
-   /* ============================================== */
-   /* footer */
-   /* Genral media query on smaller phone device and tablet with maximum 450px */
-   /* ============================================== */
 
    .hero-div {
      margin: 0%;
@@ -353,23 +348,19 @@
    .welcome-font {
      font-size: 15px;
    }
+
+   .life {
+     margin-right: 0;
+   }
  }
 
+ /* =======================    Media Query Maximum 880px  =======================*/
  @media(max-width:880px) {
 
-   /* ============================================== */
-   /* Style Guide */
-   /* Media query on biger device with maximum 880px  */
-   /* ============================================== */
 
    hr {
      width: 250px
    }
-
-   /* ============================================== */
-   /* Header */
-   /* Media query on biger device with maximum 880px  */
-   /* ============================================== */
 
    #toggle {
      display: inline;
@@ -380,28 +371,11 @@
      display: none;
    }
 
-   /* ============================================== */
-   /* Hero section */
-   /* Media query on biger device with maximum 880px  */
-   /* ============================================== */
    .hero-div {
      height: 100%;
    }
 
-   /* ============================================== */
-   /* About sectoin */
-   /* Media query on biger device with maximum 880px  */
-   /* ============================================== */
 
-   /* ============================================== */
-   /* Life sectoin */
-   /* Media query on biger device with maximum 880px  */
-   /* ============================================== */
-
-   /* ============================================== */
-   /* contact sectoin */
-   /* Media query on biger device with maximum 880px  */
-   /* ============================================== */
 
    .contact-info-box {
      margin: 0 0 0 5%;
@@ -411,24 +385,16 @@
      color: var(--primary-background);
      font-size: 15px;
    }
+
+
  }
 
  /* =======================    Media Query Minimum 880px  =======================*/
  @media (min-width: 880px) {
 
-   /* ============================================== */
-   /* footer */
-   /* Media query on biger device with minimum 880px  */
-   /* ============================================== */
-
    #resize {
      display: none !important;
    }
-
-   /* ============================================== */
-   /* footer */
-   /* Media query on biger device with minimum 880px  */
-   /* ============================================== */
 
    .contact-info-box {
      display: flex;
