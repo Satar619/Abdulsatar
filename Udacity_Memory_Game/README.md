@@ -4,20 +4,20 @@
 
 Game: 
 
-Matching Game! Click the cards to find a match. Match all 16 cards as fast and best as you can. best record is 10sec! <br/>
+Matching Game! Click the cards to find a match. Match all 16 cards as fast and best as you can.
+best record is 10sec!
 
 A fun game for users to play! Focuses on DOM manipulation, variables and object-oriented programming.
 
-It's a \#SPA \#SinglePageApp
-
-* Vanilla JS
-* jQuery
+###### Language, Framwork & library
 * HTML5
 * CSS3
+* jQuery
+* Vanilla JS
 
 #### How To Run
 
-* Simply click the link [here](https://github.com/user/repo/blob/branch/other_file.md)
+* Simply click the link [here](https://satar619.github.io/All-in-all/Udacity_Memory_Game/)
 ---
 
 
