@@ -2,14 +2,12 @@
 ### Front End Web Developer
 ##### Memory Game
 
-Game: 
-
 Matching Game! Click the cards to find a match. Match all 16 cards as fast and best as you can.
 best record is 10sec!
 
 A fun game for users to play! Focuses on DOM manipulation, variables and object-oriented programming.
 
-###### Language, Framwork & library
+##### Language, Framwork & library
 * HTML5
 * CSS3
 * jQuery
@@ -17,7 +15,7 @@ A fun game for users to play! Focuses on DOM manipulation, variables and object-
 
 #### How To Run
 
-* Simply click the link [here](https://satar619.github.io/All-in-all/Udacity_Memory_Game/)
+* Simply click the link and machcards [here](https://satar619.github.io/All-in-all/Udacity_Memory_Game/)
 ---
 
 
@@ -26,3 +24,4 @@ A fun game for users to play! Focuses on DOM manipulation, variables and object-
 #### junior Software Developer
 
 ### Visit me at: [satar619.github.io](https://satar619.github.io/)
+----
