@@ -17,13 +17,12 @@ It's a \#SPA \#SinglePageApp
 
 #### How To Run
 
-* Simply click the link above ([Game])
-
-<iframe src="http://satar619.github.io"></iframe>
-
+* Simply click the link [here](https://github.com/user/repo/blob/branch/other_file.md)
 ---
 
-# Abdul Satar
+
+
+# Abdul Satar Shirzai Yadegari
 #### junior Software Developer
 
-###Visit me: satar619.github.io
+### Visit me at: [satar619.github.io](https://satar619.github.io/)
