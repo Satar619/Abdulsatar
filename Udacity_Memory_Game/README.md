@@ -5,6 +5,8 @@
 Matching Game! Click the cards to find a match. Match all 16 cards as fast and best as you can.
 best record is 10sec!
 
+------
+
 A fun game for users to play! Focuses on DOM manipulation, variables and object-oriented programming.
 
 ##### Language, Framwork & library
@@ -14,14 +16,20 @@ A fun game for users to play! Focuses on DOM manipulation, variables and object-
 * Vanilla JS
 
 #### How To Run
-
+```
 * Simply click the link and machcards [here](https://satar619.github.io/All-in-all/Udacity_Memory_Game/)
+```
 ---
-
+### Project Screenshot
+![Beginning of Game](img/start.png)
+![When is start](img/Clicked.png)
 
 
 # Abdul Satar Shirzai Yadegari
 #### junior Software Developer
 
-### Visit me at: [satar619.github.io](https://satar619.github.io/)
+### Visit me at:
+* [satar619.github.io](https://satar619.github.io)
+* [https://linkedin.com/in/satarsy/](linkedin.com/in/satarsy)
+
 ----
