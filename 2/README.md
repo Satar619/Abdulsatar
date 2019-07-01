@@ -21,7 +21,7 @@ A fun game for users to play! Focuses on JavaScript, HTML5 Canvas, variables and
 ### Project Screenshot
 
 * ![](./pic/pic1_50.png =100x20) 
-* ![When is start](https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png =100x) 
+* ![When is start](https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png | width=50) 
 * ![When is start](images/Project-Screenshot.png =200x) 
 * ![When is start](images/Project-Screenshot.png =300x) 
 * ![When is start](images/Project-Screenshot.png =400x) 
@@ -39,7 +39,7 @@ A fun game for users to play! Focuses on JavaScript, HTML5 Canvas, variables and
 #### junior Software Developer
 
 ### Visit me at:
-* ![](images/linkedin.png) ![satar619.github.io](https://satar619.github.io)
-* ![linkedin.com/in/satarsy/](linkedin.com/in/satarsy)
+* ![](images/linkedin.png | width=100) [satar619.github.io](https://satar619.github.io)
+* [linkedin.com/in/satarsy/](linkedin.com/in/satarsy)
 
 ------
