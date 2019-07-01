@@ -20,7 +20,7 @@ A fun game for users to play! Focuses on JavaScript, HTML5 Canvas, variables and
 ---
 ### Project Screenshot
 
-![When is start](images/Project-Screenshot.png) 
+![When is start](images/ProjectScreenshot.png) 
 
 
 
