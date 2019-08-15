@@ -75,6 +75,7 @@ section {
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
+  padding: 30px 30px 30px;
 }
 
 #footer p {
@@ -163,7 +164,7 @@ header h1 a {
 }
 
 
-.filter-options h3 {
+.filter-options h2 {
   color: white;
   font-size: 1rem;
   font-weight: normal;
