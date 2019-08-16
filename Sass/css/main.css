@@ -1,0 +1,17 @@
+body {
+  background: lightblue;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+}
+
+main h1 {
+  color: red;
+}
+
+main h1:hover {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
