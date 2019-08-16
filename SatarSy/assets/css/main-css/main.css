@@ -1,0 +1,76 @@
+body,
+H1,
+section {
+  background: #6bb7ff;
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  background: whitesmoke;
+  height: 70px;
+}
+#header nav {
+  display: block;
+}
+#header nav .home-link {
+  color: red;
+  margin: 0.5em 5em 0 8em;
+  float: left;
+  font-size: 34px;
+}
+#header nav ul {
+  margin: auto;
+  padding: 1em 0%;
+  max-width: 40%;
+}
+#header nav ul a {
+  color: red;
+}
+#header nav ul .nav-item {
+  position: relative;
+  text-transform: uppercase;
+  border: 0.2em solid #6bb7ff;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  width: 100px;
+}
+#header nav ul .nav-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  background: whitesmoke;
+  height: 0.3em;
+  right: 20%;
+  top: -0.21em;
+  transform: skewX(-45deg);
+  -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+#header nav ul .nav-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  background: whitesmoke;
+  height: 0.3em;
+  left: 20%;
+  bottom: -0.25em;
+  transform: skewX(45deg);
+  -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+#header nav ul .nav-item:hover::before {
+  right: 80%;
+}
+#header nav ul .nav-item:hover::after {
+  left: 80%;
+}
+
+/*# sourceMappingURL=main.css.map */

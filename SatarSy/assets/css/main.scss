@@ -1,0 +1,88 @@
+$lightBlue: rgb(107, 183, 255);
+$whitesmoke: whitesmoke;
+$tittle: red;
+
+body,
+H1,
+section {
+    background: $lightBlue;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: $whitesmoke;
+    height: 70px;
+
+    nav {
+        display: block;
+
+        .home-link {
+            color: $tittle;
+            margin: 0.5em 5em 0 8em;
+            float: left;
+            font-size: 34px;
+        }
+
+        ul {
+            margin: auto;
+            padding: 1em 0%;
+            max-width: 40%;
+
+            a {
+                color: $tittle;
+            }
+
+            .nav-item {
+                position: relative;
+                text-transform: uppercase;
+                border: 0.2em solid $lightBlue;
+                border-radius: 20px;
+                padding: 0.5em 1em;
+                margin-right: 1em;
+                width: 100px;
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 10%;
+                    background: $whitesmoke;
+                    height: 0.3em;
+                    right: 20%;
+                    top: -0.21em;
+                    transform: skewX(-45deg);
+                    -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+                    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+                }
+
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 10%;
+                    background: $whitesmoke;
+                    height: 0.3em;
+                    left: 20%;
+                    bottom: -0.25em;
+                    transform: skewX(45deg);
+                    -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+                    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+                }
+
+                &:hover {
+                    &::before {
+                        right: 80%;
+                    }
+
+                    &::after {
+                        left: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
