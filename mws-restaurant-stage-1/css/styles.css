@@ -12,7 +12,6 @@ p {
 }
 
 body {
-  /* background-color: #fdfdfd; */
   margin: 0;
   position: relative;
 }
@@ -151,7 +150,6 @@ header h1 a {
 #map {
   height: 400px;
   width: 100%;
-  background-color: #ccc;
 }
 
 /* ====================== Restaurant Filtering ====================== */
@@ -196,30 +194,23 @@ a.skip-map:focus {
 
 #neighborhoods-select:focus,
 #cuisines-select:focus {
-  /*  background-color: #7A4D00;
-  color: white;*/
-  /*outline-color: orange;*/
   border: 5px solid orange;
-  /*box-shadow: 0 0 10px orange;*/
 }
 
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  /* background-color: #f3f3f3; */
-  list-style: outside none none;
-  padding: 30px 15px 60px;
+  list-style: none;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
 
 }
 
 #restaurants-list li {
-  /* background-color: #fff; */
-  /* border: 2px solid #ccc; */
   border-radius: 50px 0px 50px;
   font-family: Arial, sans-serif;
   margin: 15px;
@@ -232,6 +223,7 @@ a.skip-map:focus {
   -moz-box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.41);
   box-shadow: 0px 0px 14px -4px rgba(0,0,0,0.41);
 }
+
 
 @media screen and (max-width: 1269px) {
   #restaurants-list li {
@@ -512,3 +504,4 @@ div.leaflet-control-container .leaflet-bottom {
     width: 80%
   }
 }
+/* Ttal line: 514 */

@@ -161,6 +161,9 @@
    */
   createRestaurantHTML = (restaurant) => {
     const li = document.createElement('li');
+    
+    // Animation on the Restauran menu list
+    li.setAttribute('data-aos','zoom-in');
 
     const image = document.createElement('img');
     image.className = 'restaurant-img';
