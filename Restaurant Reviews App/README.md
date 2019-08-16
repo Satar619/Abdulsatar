@@ -12,7 +12,7 @@ In this project, I incrementally converted a static webpage to a mobile-ready we
 ---
 ## Specification
 
-I was provided with the code for a restaurant reviews website. This code had a lot of issues. It was barely usable on a desktop browser, much less a mobile device. It also didn’t include any standard accessibility features, and it didn't work offline at all. My job was to update the code to resolve these issues while still maintaining the included functionality. [https://github.com/udacity/mws-restaurant-stage-1](This is original code from Udacity).
+I was provided with the code for a restaurant reviews website. This code had a lot of issues. It was barely usable on a desktop browser, much less a mobile device. It also didn’t include any standard accessibility features, and it didn't work offline at all. My job was to update the code to resolve these issues while still maintaining the included functionality.  [https://github.com/udacity/mws-restaurant-stage-1](This is original code from Udacity)
 
 
 #### How To Run
